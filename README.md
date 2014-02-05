@@ -14,12 +14,10 @@ displayer.js是一个小型的html5 canvas图形处理的封装。它本是rocui
 
 2. 创建显示对象
 
-	````$.sprite(option);
-	````
+	`$.sprite(option);`
 3. 绘制显示对象
 
-	````scene.appendChild(a).appendChild(b);
-	````
+	`scene.appendChild(a).appendChild(b);`
 
 ## 显示对象option ##
 
