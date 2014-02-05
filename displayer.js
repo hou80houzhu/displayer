@@ -138,10 +138,12 @@
         if (typeof this._background.image === "string") {
             var _a = this._background.image;
             this._background.image = null;
-            $.resource().loadImage(_a, function() {
-                ths._background.image = this;
+            var _a = document.createElement("img");
+            _a.src = url;
+            _a.addEventListener("load", function(e) {
+                ths._background.image = e.target;
                 ths._root.draw();
-            });
+            }, false);
         }
     };
     sprite.drawImage = function(sprite) {
@@ -613,4 +615,4 @@
             }
         }
     };
-})(rocui);
+})(jQuery);
