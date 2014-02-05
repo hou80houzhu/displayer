@@ -1,5 +1,10 @@
 # displayer #
 
+Displayer.js is a jQuery plugin  which is developed by HTML5. It is a part of the ROCUI plug-in system which is a Web UI framework and will be released soon.
+
+Displayer.js supports local coordinate system and the conversion of coordinate system to make a precision graphics process.
+Also,it supports local graphics data reserve (sympatric conditions) and local preservation.What's more,it supports the event system which is quite precise.
+
 displayer.js是一个小型的html5 canvas图形处理的封装。它本是rocui插件系统的一部分（rocui还未发布，它是一个完整的web ui处理框架，但是它将在不久之后完整发布）但是它现在仍可以作为jquery插件而是用。
 
 它参照flash显示对象（sprite）而设计，支持局部坐标系统，以及坐标系统间的转换，这样便可以进行精确的图形处理。同时支持局部图形数据的获取（同域条件下），以及本地保存。它支持事件系统，可以为任何displayer对象添加事件，而且保证事件触发的范围精确。
