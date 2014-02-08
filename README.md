@@ -5,7 +5,7 @@ Displayer.js is a jQuery plugin  which is developed by HTML5. It is a part of th
 Displayer.js supports local coordinate system and the conversion of coordinate system to make a precision graphics process.
 Also,it supports local graphics data reserve (sympatric conditions) and local preservation.What's more,it supports the event system which is quite precise.
 
-[https://github.com/hou80houzhu/photocutter](https://github.com/hou80houzhu/photocutter "DEMO CLICK HERE")
+<a href="https://github.com/hou80houzhu/photocutter">Demo Here</a>
 
 displayer.js是一个小型的html5 canvas图形处理的封装。它本是rocui插件系统的一部分（rocui还未发布，它是一个完整的web ui处理框架，但是它将在不久之后完整发布）但是它现在仍可以作为jquery插件而是用。
 
