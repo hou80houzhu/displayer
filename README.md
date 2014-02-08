@@ -36,16 +36,16 @@ displayer.js是一个小型的html5 canvas图形处理的封装。它本是rocui
 		width:100,
 		height:100,
 		alpha:10,
-		background = {
+		background : {
             color: "none",//16进字颜色值
             image: null,//图片url
             imageType: "fit"//[repeat center fit fill]填充方式
         },
-		border = {
+		border : {
             width: 0,
             color: "none"//16进字颜色值
         },
-		shadow = {
+		shadow : {
             color: "none",//16进字颜色值
             offsetX: 0,//水平偏移
             offsetY: 0,//垂直偏移
