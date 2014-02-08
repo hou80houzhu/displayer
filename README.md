@@ -179,3 +179,8 @@ scene对象
 
 ### getSpriteLocal(sprite) ###
 将坐标转为sprite坐标系本地坐标
+
+## 注意问题 ##
+修改属性后请适时调用draw()以更新显示.
+
+这里有一个实现案例<a href="https://github.com/hou80houzhu/photocutter">使用案例</a>
